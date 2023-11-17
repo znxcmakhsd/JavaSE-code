@@ -22,7 +22,7 @@ public class ReturnOperation implements IOperation {
                     System.out.println("图书归还成功");
                     book.setBorrowed(false);
                     return;
-                } 
+                }
             }
         }
     }
